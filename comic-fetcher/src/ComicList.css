@@ -1,0 +1,33 @@
+.comic-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .comic-item {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .comic-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .comic-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .comic-item p {
+    font-size: 16px;
+  }
+  
